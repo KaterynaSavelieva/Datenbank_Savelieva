@@ -1,1 +1,10 @@
 MySQL_Subquery_Examples_files/
+# Ігноруємо тимчасові та допоміжні файли
+MySQL_Subquery_Examples_files/
+*.tmp
+*.log
+*.bak
+*.bkp
+*.Download
+*.DS_Store
+Thumbs.db
