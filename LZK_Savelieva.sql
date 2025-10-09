@@ -1,3 +1,4 @@
+USE werkstattdb;
 DROP TABLE IF EXISTS anmeldungen;
 DROP TABLE IF EXISTS kurse;
 DROP TABLE IF EXISTS dozenten;
@@ -101,9 +102,9 @@ INSERT INTO raeume(bezeichnung,kapazitaet) VALUES
 
 
 INSERT INTO kurse(titel,startdatum,enddatum,kapazitaet,dozent_id,raum_id) VALUES
-('Kurs Titel 1','2025-10-01','2025-12-01',12,1,1),
+('Kurs Titel 1','2025-10-01','2025-10-02',2,1,1),
 ('Kurs Titel 2','2025-10-01','2025-12-01',16,3,3),
-('Kurs Titel 3','2025-10-01','2025-12-01',10,10,2),
+('Kurs Titel 3','2025-10-01','2025-10-05',10,10,2),
 ('Kurs Titel 4','2025-10-01','2025-12-01',12,4,1),
 ('Kurs Titel 5','2025-10-01','2025-12-01',10,5,2),
 ('Kurs Titel 6','2025-11-01','2025-12-01',12,6,9),
@@ -138,4 +139,6 @@ INSERT INTO anmeldungen VALUES
 (9,1,'2025-11-10','bestätigt'),
 (9,2,'2025-11-10','bestätigt'),
 (10,3,'2025-11-20','bestätigt');
+
+
 
